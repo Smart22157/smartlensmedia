@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 font-semibold">
           <Link href="/">Home</Link>
-          <Link href="/gallery">Gallery</Link>
+          <Link href="/portfolio">Gallery</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/booking">
