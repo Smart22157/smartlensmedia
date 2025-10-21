@@ -142,7 +142,8 @@ const Portfolio = () => {
     : null;
 
   return (
-    <section className="py-24 bg-gray-900 text-white">
+   <section className="min-h-screen w-full bg-gray-900 text-white px-4 sm:px-8 py-16">
+
       <h2 className="text-4xl font-bold mb-8 text-center">Portfolio</h2>
 
       {/* Category Buttons */}

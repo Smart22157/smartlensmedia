@@ -57,7 +57,7 @@ export default function Navbar() {
           <Link href="/" onClick={() => setIsOpen(false)}>Home</Link>
           <Link href="/gallery" onClick={() => setIsOpen(false)}>Gallery</Link>
           <Link href="/about" onClick={() => setIsOpen(false)}>About</Link>
-          <Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
+          <Link href="/portfolio" onClick={() => setIsOpen(false)}>Contact</Link>
           <Link href="/booking" onClick={() => setIsOpen(false)}>
             <span className="bg-red-600 px-3 py-1 rounded hover:bg-red-700">Book Now</span>
           </Link>
