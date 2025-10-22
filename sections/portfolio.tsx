@@ -169,19 +169,19 @@ const Portfolio = () => {
 
       {/* Grid */}
      {activeCategory !== "Livestreaming" ? (
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4 sm:px-6 md:px-8">
+  <div className="columns-1 sm:columns-2 md:columns-3 gap-4 mx-auto w-full px-2 sm:px-4 md:px-0 max-w-6xl">
     {filteredImages.map((img, idx) => (
       <img
         key={idx}
         src={img.src}
         alt={img.alt}
-        className="w-full h-auto rounded shadow-md cursor-pointer hover:scale-105 transition-transform duration-300"
+        className="w-full mb-4 rounded shadow-md cursor-pointer break-inside-avoid hover:scale-105 transition-transform duration-300 object-cover"
         onClick={() => setSelectedIndex(idx)}
       />
     ))}
   </div>
 ) : (
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 sm:px-6 md:px-8">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mx-auto w-full px-2 sm:px-4 md:px-0 max-w-6xl">
     {filteredStreams.map((stream, idx) => (
       <div
         key={idx}
@@ -200,6 +200,7 @@ const Portfolio = () => {
     ))}
   </div>
 )}
+
 
       {/* Lightbox Modal */}
       {(selectedImage || selectedStream) && (
