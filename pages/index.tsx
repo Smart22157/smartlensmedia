@@ -12,14 +12,14 @@ interface CrewMember {
 const crew: CrewMember[] = [
   {
     name: "Geoffrey Muchangi",
-    role: "Photographer",
+    role: "Photographer, Videographer",
     description:
       "Sometimes the grandest shots are in tiny details. Macro shots of water droplets, leaves, or textures tell stories of the natural world. In video, slow reveals focusing on a dewdrop before pulling back to a vast landscape create cinematic tension.",
     image: "/images/crew/smart.jpg",
   },
   {
     name: "Samuel Njuki",
-    role: "Videographer",
+    role: "Videographer,photographer",
     description:
       "In photography, a slight motion blur can convey movement; in video, motion is your language. Experiment with slow-motion to emphasize emotion, hyperlapse to show time passing, or panning shots to lead the eye through a scene.",
     image: "/images/crew/sam.jpg",
@@ -35,21 +35,21 @@ const crew: CrewMember[] = [
     name: "Cynthia Nyokabi",
     role: "Designer",
     description:
-      "Every great design tells a story. Story-driven design resonates because it connects on an emotional level, not just a visual one.",
+      "A designer is more than someone who arranges colors and shapes. A designer is a storyteller  one who translates emotion, culture, and imagination into visuals that speak louder than words. At SmartLens, our designer is the bridge between creativity and purpose. Every poster, logo, or layout is carefully crafted to make people feel something connection, excitement, belonging.",
     image: "/images/crew/cynthia.jpg",
   },
   {
     name: "Virginia Gathoni",
     role: "Social Media Marketer",
     description:
-      "Design tells stories. Whether it’s a logo or a brand campaign, each should evoke emotion and authenticity.",
+      "A social media marketer is the heartbeat of our digital presence the one who turns moments into stories, and stories into conversations. At SmartLens, our marketer is not just posting content; they’re shaping how the world sees us. Every caption, reel, and hashtag is crafted with intent — to connect, engage, and inspire.",
     image: "/images/crew/gathoni.jpg",
   },
   {
     name: "Ismael Mungai",
     role: "Transport and Logistics",
     description:
-      "Logistics is movement — trucks leaving depots, conveyors in motion. Capture the flow that keeps everything connected.",
+      "Behind every smooth shoot is someone who ensures that everything  and everyone gets where it needs to be, safely and on time. Our Safety and Transport Lead is the quiet force that keeps SmartLens moving from early morning call times to late night returns.",
     image: "/images/crew/Mungai.jpg",
   },
 ];
