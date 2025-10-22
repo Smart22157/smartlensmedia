@@ -143,63 +143,63 @@ const Portfolio = () => {
 
   return (
    <section className="min-h-screen w-full bg-gray-900 text-white px-4 sm:px-8 py-16">
-      <div className="w-full max-w-6xl mx-auto px-4 sm:px-6"/>
-        <h2 className="text-4xl font-bold mb-8 text-center">Portfolio</h2>
+     <div className="w-full max-w-6xl mx-auto px-4 sm:px-6">
+  <h2 className="text-4xl font-bold mb-8 text-center">Portfolio</h2>
 
-      {/* Category Buttons */}
-   <div className="flex justify-center gap-4 mb-12">
-  {categories.map((cat) => (
-    <button
-      key={cat}
-      onClick={() => {
-        setActiveCategory(cat);
-        setSelectedIndex(null);
-      }}
-      className={`px-6 py-2 font-bold rounded transition ${
-        activeCategory === cat
-          ? "bg-red-600 hover:bg-red-700"
-          : "bg-gray-700 hover:bg-gray-600"
-      }`}
-    >
-      {cat}
-    </button>
-  ))}
-</div>
-
-
-      {/* Grid */}
-     {activeCategory !== "Livestreaming" ? (
-  <div className="columns-1 sm:columns-2 md:columns-3 gap-4 mx-auto w-full px-2 sm:px-4 md:px-0 max-w-6xl">
-    {filteredImages.map((img, idx) => (
-      <img
-        key={idx}
-        src={img.src}
-        alt={img.alt}
-        className="w-full mb-4 rounded shadow-md cursor-pointer break-inside-avoid hover:scale-105 transition-transform duration-300 object-cover"
-        onClick={() => setSelectedIndex(idx)}
-      />
-    ))}
-  </div>
-) : (
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mx-auto w-full px-2 sm:px-4 md:px-0 max-w-6xl">
-    {filteredStreams.map((stream, idx) => (
-      <div
-        key={idx}
-        className="bg-gray-800 rounded shadow-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300"
-        onClick={() => setSelectedIndex(idx)}
+  {/* Category Buttons */}
+  <div className="flex justify-center gap-4 mb-12 flex-wrap">
+    {categories.map((cat) => (
+      <button
+        key={cat}
+        onClick={() => {
+          setActiveCategory(cat);
+          setSelectedIndex(null);
+        }}
+        className={`px-6 py-2 font-bold rounded transition ${
+          activeCategory === cat
+            ? "bg-red-600 hover:bg-red-700"
+            : "bg-gray-700 hover:bg-gray-600"
+        }`}
       >
-        <img
-          src={stream.thumbnail}
-          alt={stream.title}
-          className="w-full h-48 object-cover"
-        />
-        <div className="p-4">
-          <h3 className="text-lg font-bold text-white">{stream.title}</h3>
-        </div>
-      </div>
+        {cat}
+      </button>
     ))}
   </div>
-)}
+
+  {/* Grid */}
+  {activeCategory !== "Livestreaming" ? (
+    <div className="columns-1 sm:columns-2 md:columns-3 gap-4 mx-auto w-full px-2 sm:px-4 md:px-0">
+      {filteredImages.map((img, idx) => (
+        <img
+          key={idx}
+          src={img.src}
+          alt={img.alt}
+          className="w-full mb-4 rounded shadow-md cursor-pointer break-inside-avoid hover:scale-105 transition-transform duration-300 object-cover"
+          onClick={() => setSelectedIndex(idx)}
+        />
+      ))}
+    </div>
+  ) : (
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mx-auto w-full px-2 sm:px-4 md:px-0">
+      {filteredStreams.map((stream, idx) => (
+        <div
+          key={idx}
+          className="bg-gray-800 rounded shadow-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300"
+          onClick={() => setSelectedIndex(idx)}
+        >
+          <img
+            src={stream.thumbnail}
+            alt={stream.title}
+            className="w-full h-48 object-cover"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-bold text-white">{stream.title}</h3>
+          </div>
+        </div>
+      ))}
+    </div>
+  )}
+</div>
 
 
       {/* Lightbox Modal */}
