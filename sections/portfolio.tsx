@@ -44,16 +44,14 @@ const images: ImageItem[] = [
  { src: "/images/portfolio/wedding15.jpg", alt: "Wedding 15", category: "Wedding" },
  { src: "/images/portfolio/wedding16.jpg", alt: "Wedding 16", category: "Wedding" },      
  { src: "/images/portfolio/wedding17.jpg", alt: "Wedding 17", category: "Wedding" },     
+{ src: "/images/portfolio/wedding18.jpg", alt: "Wedding 18", category: "Wedding" }, 
 
 
-
-  { src: "/images/portfolio/portrait1.jpg", alt: "Portrait 1", category: "Portraits" },
-  { src: "/images/portfolio/portrait2.jpg", alt: "Portrait 2", category: "Portraits" },
-    { src: "/images/portfolio/portrait3.jpg", alt: "Portrait 3", category: "Portraits" },
-      { src: "/images/portfolio/portrait4.jpg", alt: "Portrait 4", category: "Portraits" },
-        { src: "/images/portfolio/portrait5.jpg", alt: "Portrait 5", category: "Portraits" },
-           { src: "/images/portfolio/portrait6.jpg", alt: "Portrait 6", category: "Portraits" },
-           { src: "/images/portfolio/portrait7.jpg", alt: "Portrait 7", category: "Portraits" },
+ { src: "/images/portfolio/portrait1.jpg", alt: "Portrait 1", category: "Portraits" },
+{ src: "/images/portfolio/portrait2.jpg", alt: "Portrait 2", category: "Portraits" },
+ { src: "/images/portfolio/portrait3.jpg", alt: "Portrait 3", category: "Portraits" },
+{ src: "/images/portfolio/portrait4.jpg", alt: "Portrait 4", category: "Portraits" },
+ { src: "/images/portfolio/portrait5.jpg", alt: "Portrait 5", category: "Portraits" },
 { src: "/images/portfolio/portrait8.jpg", alt: "Portrait 8", category: "Portraits" },
 { src: "/images/portfolio/portrait9.jpg", alt: "Portrait 9", category: "Portraits" },
 { src: "/images/portfolio/portrait10.jpg", alt: "Portrait 10", category: "Portraits" },
@@ -64,6 +62,7 @@ const images: ImageItem[] = [
 { src: "/images/portfolio/portrait15.jpg", alt: "Portrait 15", category: "Portraits" },
 { src: "/images/portfolio/portrait16.jpg", alt: "Portrait 16", category: "Portraits" },
 { src: "/images/portfolio/portrait17.jpg", alt: "Portrait 17", category: "Portraits" },
+{ src: "/images/portfolio/portrait18.jpg", alt: "Portrait 18", category: "Portraits" },
 
 
         { src: "/images/portfolio/d1.jpg", alt: "drone1", category: "Drone" },
@@ -78,6 +77,10 @@ const images: ImageItem[] = [
   { src: "/images/portfolio/od5.jpg", alt: "drone6", category: "Ordinations" },
   { src: "/images/portfolio/od6.jpg", alt: "drone7", category: "Ordinations" },
   { src: "/images/portfolio/od7.jpg", alt: "drone8", category: "Ordinations" },
+   { src: "/images/portfolio/od8.jpg", alt: "drone8", category: "Ordinations" },
+    { src: "/images/portfolio/od9.jpg", alt: "drone8", category: "Ordinations" },
+     { src: "/images/portfolio/od10.jpg", alt: "drone8", category: "Ordinations" },
+ { src: "/images/portfolio/od11.jpg", alt: "drone8", category: "Ordinations" },
 
 
 ];
