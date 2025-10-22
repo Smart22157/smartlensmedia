@@ -60,19 +60,23 @@ const images: ImageItem[] = [
 { src: "/images/portfolio/portrait11.jpg", alt: "Portrait 11", category: "Portraits" },
 { src: "/images/portfolio/portrait12.jpg", alt: "Portrait 12", category: "Portraits" },
 { src: "/images/portfolio/portrait13.jpg", alt: "Portrait 13", category: "Portraits" },
+{ src: "/images/portfolio/portrait13.jpg", alt: "Portrait 14", category: "Portraits" },
+{ src: "/images/portfolio/portrait13.jpg", alt: "Portrait 15", category: "Portraits" },
 
 
-
-
-
-
-
-        
         { src: "/images/portfolio/d1.jpg", alt: "drone1", category: "Drone" },
         { src: "/images/portfolio/d2.jpg", alt: "drone2", category: "Drone" },
         { src: "/images/portfolio/d3.jpg", alt: "drone3", category: "Drone" },
-        { src: "/images/portfolio/d4.jpg", alt: "drone4", category: "Drone" },
-       
+ { src: "/images/portfolio/d4.jpg", alt: "drone1", category: "Drone" },
+
+ { src: "/images/portfolio/od1.jpg", alt: "drone2", category: "Ordinations" },
+  { src: "/images/portfolio/od2.jpg", alt: "drone3", category: "Ordinations" },
+  { src: "/images/portfolio/od3.jpg", alt: "drone4", category: "Ordinations" },
+  { src: "/images/portfolio/od4.jpg", alt: "drone5", category: "Ordinations" },
+  { src: "/images/portfolio/od5.jpg", alt: "drone6", category: "Ordinations" },
+  { src: "/images/portfolio/od6.jpg", alt: "drone7", category: "Ordinations" },
+  { src: "/images/portfolio/od7.jpg", alt: "drone8", category: "Ordinations" },
+
 
 ];
 
@@ -109,7 +113,7 @@ const streams: StreamItem[] = [
   },
 ];
 
-const categories = ["Corporate", "Wedding", "Portraits", "Drone", "Livestreaming"];
+const categories = ["Corporate", "Wedding", "Portraits", "Drone", "Livestreaming","Ordinations"];
 
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState<string>("Corporate");
