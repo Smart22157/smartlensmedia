@@ -143,8 +143,8 @@ const Portfolio = () => {
 
   return (
    <section className="min-h-screen w-full bg-gray-900 text-white px-4 sm:px-8 py-16">
-
-      <h2 className="text-4xl font-bold mb-8 text-center">Portfolio</h2>
+      <div className="w-full max-w-6xl mx-auto px-4 sm:px-6"/>
+        <h2 className="text-4xl font-bold mb-8 text-center">Portfolio</h2>
 
       {/* Category Buttons */}
    <div className="flex justify-center gap-4 mb-12">
