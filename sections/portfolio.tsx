@@ -119,6 +119,11 @@ const streams: StreamItem[] = [
     url: "https://www.youtube.com/embed/n6vQyGRREnM",
     thumbnail: "/images/streams/thumb6.jpg",
   },
+     {
+    title: "Ordination livestream- May 2025",
+    url: "https://www.youtube.com/embed/e-hj0ffEg0k",
+    thumbnail: "/images/streams/thumb7.jpg",
+  },
 ];
 
 const categories = ["Corporate", "Wedding", "Portraits", "Drone", "Livestreaming","Ordinations","Landscape"];
