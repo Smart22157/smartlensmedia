@@ -53,3 +53,11 @@ body {
   max-height: 80%;
   border-radius: 0.5rem;
 }
+
+/* ✅ Fix portfolio mobile layout */
+@media (max-width: 768px) {
+  .portfolio-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
