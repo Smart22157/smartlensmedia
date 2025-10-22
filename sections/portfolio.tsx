@@ -95,7 +95,7 @@ const streams: StreamItem[] = [
     thumbnail: "/images/streams/thumb1.jpg",
   },
   {
-    title: "JKUAT GRRADUATION - April 2025",
+    title: "JKUAT GRRADUATION - JUNE 2025",
     url: "https://www.youtube.com/embed/tS2S0FmqVUc",
     thumbnail: "/images/streams/thumb2.jpg",
   },
