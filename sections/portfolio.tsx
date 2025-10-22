@@ -62,7 +62,7 @@ const images: ImageItem[] = [
 { src: "/images/portfolio/portrait15.jpg", alt: "Portrait 15", category: "Portraits" },
 { src: "/images/portfolio/portrait16.jpg", alt: "Portrait 16", category: "Portraits" },
 { src: "/images/portfolio/portrait17.jpg", alt: "Portrait 17", category: "Portraits" },
-{ src: "/images/portfolio/portrait18.jpg", alt: "Portrait 18", category: "Portraits" },
+
 
 
         { src: "/images/portfolio/d1.jpg", alt: "drone1", category: "Drone" },
