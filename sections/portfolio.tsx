@@ -168,38 +168,38 @@ const Portfolio = () => {
 
 
       {/* Grid */}
-      {activeCategory !== "Livestreaming" ? (
-        <div className="columns-1 sm:columns-2 md:columns-3 gap-4 max-w-6xl mx-auto">
-          {filteredImages.map((img, idx) => (
-            <img
-              key={idx}
-              src={img.src}
-              alt={img.alt}
-              className="w-full mb-4 rounded shadow-md cursor-pointer break-inside-avoid hover:scale-105 transition-transform duration-300"
-              onClick={() => setSelectedIndex(idx)}
-            />
-          ))}
+     {activeCategory !== "Livestreaming" ? (
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4 sm:px-6 md:px-8">
+    {filteredImages.map((img, idx) => (
+      <img
+        key={idx}
+        src={img.src}
+        alt={img.alt}
+        className="w-full h-auto rounded shadow-md cursor-pointer hover:scale-105 transition-transform duration-300"
+        onClick={() => setSelectedIndex(idx)}
+      />
+    ))}
+  </div>
+) : (
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 sm:px-6 md:px-8">
+    {filteredStreams.map((stream, idx) => (
+      <div
+        key={idx}
+        className="bg-gray-800 rounded shadow-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300"
+        onClick={() => setSelectedIndex(idx)}
+      >
+        <img
+          src={stream.thumbnail}
+          alt={stream.title}
+          className="w-full h-48 object-cover"
+        />
+        <div className="p-4">
+          <h3 className="text-lg font-bold text-white">{stream.title}</h3>
         </div>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {filteredStreams.map((stream, idx) => (
-            <div
-              key={idx}
-              className="bg-gray-800 rounded shadow-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300"
-              onClick={() => setSelectedIndex(idx)}
-            >
-              <img
-                src={stream.thumbnail}
-                alt={stream.title}
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-lg font-bold text-white">{stream.title}</h3>
-              </div>
-            </div>
-          ))}
-        </div>
-      )}
+      </div>
+    ))}
+  </div>
+)}
 
       {/* Lightbox Modal */}
       {(selectedImage || selectedStream) && (
