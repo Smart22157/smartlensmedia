@@ -1,0 +1,31 @@
+[33m8dc7bc9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m photos update
+[33m65213cb[m[33m ([m[1;31morigin/main[m[33m)[m new update
+[33md4a4fb2[m Graduation
+[33mb6d8bea[m landscaing
+[33m2de41b1[m changes
+[33m050f7ed[m photos update
+[33md2bbbd6[m portraits
+[33mc2ea8ff[m new
+[33m3a7c310[m potraits update
+[33m0ffe389[m portfolio changes
+[33m56100d2[m ngotho photo update
+[33me8ae193[m photo
+[33m5d94c63[m testimonials
+[33m17f457b[m style
+[33mc8b59be[m newx
+[33m4ab8fd9[m page orientation
+[33mabfef49[m new portfolio
+[33m610f17d[m alignment on the portfolio page
+[33mc08a933[m gallary update
+[33m6b35a51[m `Update Navbar component: change portfolio link to gallery link`
+[33me1e7b78[m new feature: enhance Navbar component with respons new
+[33mc0105dc[m navbar
+[33mc4006e7[m `Updated build manifest and added new pages to the build manifest, updated webpack chunk files, and modified the build manifest for the development environment.`
+[33m54ca8da[m Updated navbar with mobile menu and improved layout
+[33m5ff2ed5[m new
+[33md0f3e7c[m Improved portfolio responsiveness and mobile layout
+[33md53918e[m Updated Navbar and mobile responsiveness
+[33mc4b4ec1[m Removed node_modules from git tracking
+[33m8c4f627[m Removed node_modules from repository
+[33mdbb0720[m Remove node_modules and add .gitignore
+[33m740fa41[m first commit
