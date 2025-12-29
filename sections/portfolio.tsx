@@ -13,12 +13,12 @@ interface StreamItem {
 }
 
 const images: ImageItem[] = [
-{ src: "public/images/portfolio/corporate1.jpg", alt: "Corporate 1", category: "Corporate" },
-{ src: "public/images/portfolio/corporate2.jpg", alt: "Corporate 2", category: "Corporate" },
-{ src: "public/images/portfolio/corporate3.jpg", alt: "Corporate 3", category: "Corporate" },
-{ src: "public/images/portfolio/corporate4.jpg", alt: "Corporate 4", category: "Corporate" },
-{ src: "public/images/portfolio/corporate5.jpg", alt: "Corporate 5", category: "Corporate" },
-{ src: "public/images/portfolio/corporate6.jpg", alt: "Corporate 6", category: "Corporate" },
+{ src: "/images/portfolio/corporate1.jpg", alt: "Corporate 1", category: "Corporate" },
+{ src: "/images/portfolio/corporate2.jpg", alt: "Corporate 2", category: "Corporate" },
+{ src: "/images/portfolio/corporate3.jpg", alt: "Corporate 3", category: "Corporate" },
+{ src: "/images/portfolio/corporate4.jpg", alt: "Corporate 4", category: "Corporate" },
+{ src: "/images/portfolio/corporate5.jpg", alt: "Corporate 5", category: "Corporate" },
+{ src: "/images/portfolio/corporate6.jpg", alt: "Corporate 6", category: "Corporate" },
 { src: "/images/portfolio/corporate7.jpg", alt: "Corporate 7", category: "Corporate" },
 { src: "/images/portfolio/corporate8.jpg", alt: "Corporate 8", category: "Corporate" },
 { src: "/images/portfolio/corporate9.jpg", alt: "Corporate 9", category: "Corporate" },
