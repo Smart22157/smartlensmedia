@@ -13,7 +13,7 @@ interface StreamItem {
 }
 
 const images: ImageItem[] = [
-{ src: "/images/portfolio/corporate1.jpg", alt: "Corporate 1", category: "Corporate" },
+{ src: "/images/portfolio/corporate1.jpg", alt: "Corporate 11", category: "Corporate" },
 { src: "/images/portfolio/corporate2.jpg", alt: "Corporate 2", category: "Corporate" },
 { src: "/images/portfolio/corporate3.jpg", alt: "Corporate 3", category: "Corporate" },
 { src: "/images/portfolio/corporate4.jpg", alt: "Corporate 4", category: "Corporate" },
