@@ -4,7 +4,7 @@ interface ImageItem {
   src: string;
   alt: string;
   category: string;
-}
+}      
 
 interface StreamItem {
   title: string;
@@ -158,7 +158,7 @@ const streams: StreamItem[] = [
   
 ];
 
-const categories = ["Corporate", "Wedding", "Portraits", "Drone", "Livestreaming","Ordinations","Landscape","Graduation"];
+const categories = ["Corporate", "Wedding", "Portraits", "Drone", "Livestreaming","Ordinations","Landscape","Graduations"];
 
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState<string>("Corporate");
