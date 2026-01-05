@@ -15,42 +15,42 @@ const crew: CrewMember[] = [
     role: "Photographer, Videographer",
     description:
       "Sometimes the grandest shots are in tiny details. Macro shots of water droplets, leaves, or textures tell stories of the natural world. In video, slow reveals focusing on a dewdrop before pulling back to a vast landscape create cinematic tension.",
-    image: "/images/crew/smart.jpg",
+    image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536080/smart_svzomb.jpg",
   },
   {
     name: "Samuel Njuki",
-    role: "Videographer,photographer",
+    role: "Videographer, Photographer",
     description:
       "In photography, a slight motion blur can convey movement; in video, motion is your language. Experiment with slow-motion to emphasize emotion, hyperlapse to show time passing, or panning shots to lead the eye through a scene.",
-    image: "/images/crew/sam.jpg",
+    image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536079/sam_x5d5zm.jpg",
   },
   {
     name: "James Njuki",
     role: "Videographer",
     description:
       "A still photo freezes emotion, but video lets it breathe. A laugh, a tear, a handshake, or a fleeting glance—these tiny human moments become cinematic gold.",
-    image: "/images/crew/james.jpg",
+    image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536082/james_p0czcj.jpg",
   },
   {
     name: "Cynthia Nyokabi",
     role: "Designer",
     description:
-      "A designer is more than someone who arranges colors and shapes. A designer is a storyteller  one who translates emotion, culture, and imagination into visuals that speak louder than words. At SmartLens, our designer is the bridge between creativity and purpose. Every poster, logo, or layout is carefully crafted to make people feel something connection, excitement, belonging.",
-    image: "/images/crew/cynthia.jpg",
+      "A designer is more than someone who arranges colors and shapes. A designer is a storyteller — one who translates emotion, culture, and imagination into visuals that speak louder than words. At SmartLens, our designer is the bridge between creativity and purpose. Every poster, logo, or layout is carefully crafted to make people feel something: connection, excitement, belonging.",
+    image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536076/cynthia_uaxmos.jpg",
   },
   {
     name: "Virginia Gathoni",
     role: "Social Media Marketer",
     description:
-      "A social media marketer is the heartbeat of our digital presence the one who turns moments into stories, and stories into conversations. At SmartLens, our marketer is not just posting content; they’re shaping how the world sees us. Every caption, reel, and hashtag is crafted with intent — to connect, engage, and inspire.",
-    image: "/images/crew/gathoni.jpg",
+      "A social media marketer is the heartbeat of our digital presence — the one who turns moments into stories, and stories into conversations. At SmartLens, our marketer is not just posting content; they’re shaping how the world sees us. Every caption, reel, and hashtag is crafted with intent — to connect, engage, and inspire.",
+    image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536082/gathoni_dauihc.jpg",
   },
   {
     name: "Ismael Mungai",
     role: "Transport and Logistics",
     description:
-      "Behind every smooth shoot is someone who ensures that everything  and everyone gets where it needs to be, safely and on time. Our Safety and Transport Lead is the quiet force that keeps SmartLens moving from early morning call times to late night returns.",
-    image: "/images/crew/Mungai.jpg",
+      "Behind every smooth shoot is someone who ensures that everything and everyone gets where it needs to be, safely and on time. Our Safety and Transport Lead is the quiet force that keeps SmartLens moving from early morning call times to late night returns.",
+    image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536082/whole-crew_bldyvw.jpg",
   },
 ];
 
