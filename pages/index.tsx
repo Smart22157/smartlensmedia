@@ -45,13 +45,7 @@ const crew: CrewMember[] = [
       "A social media marketer is the heartbeat of our digital presence — the one who turns moments into stories, and stories into conversations. At SmartLens, our marketer is not just posting content; they’re shaping how the world sees us. Every caption, reel, and hashtag is crafted with intent — to connect, engage, and inspire.",
     image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536082/gathoni_dauihc.jpg",
   },
-  {
-    name: "Ismael Mungai",
-    role: "Transport and Logistics",
-    description:
-      "Behind every smooth shoot is someone who ensures that everything and everyone gets where it needs to be, safely and on time. Our Safety and Transport Lead is the quiet force that keeps SmartLens moving from early morning call times to late night returns.",
-    image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536082/whole-crew_bldyvw.jpg",
-  },
+
 ];
 
 export default function Home() {
