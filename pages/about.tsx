@@ -24,7 +24,7 @@ export default function About() {
         {/* Our Story Section */}
         <section className="py-16 px-4 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
           <img
-            src="/images/crew/whole-crew.jpg"
+            src="https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536082/whole-crew_bldyvw.jpg"
             alt="SmartLens Team"
             className="w-full md:w-1/2 rounded shadow-lg object-cover"
           />
@@ -60,34 +60,46 @@ export default function About() {
 
         {/* Optional Team Section */}
         <section className="py-16 px-4 max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Meet Our Team</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Meet Our clients</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <img src="/images/crew/smart.jpg" alt="Geoffrey" className="w-full rounded shadow-lg mb-4" />
-              <h3 className="text-xl font-bold">Geoffrey Muchangi</h3>
-              <p className="text-red-600 font-semibold">Photographer</p>
+              <img src="https://res.cloudinary.com/dqt3j0uif/image/upload/v1767612755/IMG_9585_v4w69m.jpg" alt="Mesapotamia Properties" className="w-full rounded shadow-lg mb-4" />
+              <h3 className="text-xl font-bold">Mesapotamia Properties</h3>
+              <p className="text-red-600 font-semibold">We sell land for you to make a home</p>
             </div>
             <div className="text-center">
-              <img src="/images/crew/sam.jpg" alt="Samuel" className="w-full rounded shadow-lg mb-4" />
-              <h3 className="text-xl font-bold">Samuel Njuki</h3>
-              <p className="text-red-600 font-semibold">Videographer</p>
+              <img src="https://res.cloudinary.com/dqt3j0uif/image/upload/v1767535768/grad6_vceum4.jpg" alt="Grace Mahar" className="w-full rounded shadow-lg mb-4" />
+              <h3 className="text-xl font-bold">Grace Mahar</h3>
+              <p className="text-red-600 font-semibold">Handle her Graduation</p>
             </div>
             <div className="text-center">
-              <img src="/images/crew/james.jpg" alt="James" className="w-full rounded shadow-lg mb-4" />
-              <h3 className="text-xl font-bold">James Njuki</h3>
-              <p className="text-red-600 font-semibold">Videographer</p>
+              <img src="https://res.cloudinary.com/dqt3j0uif/image/upload/v1767612460/waringa_fomvn4.jpg" alt="Rachael Waringa" className="w-full rounded shadow-lg mb-4" />
+              <h3 className="text-xl font-bold">Rachael Waringa</h3>
+              <p className="text-red-600 font-semibold">Handle her Daughters Birthday</p>
             </div>
             <div className="text-center">
-              <img src="/images/crew/cynthia.jpg" alt="Cynthia" className="w-full rounded shadow-lg mb-4" />
-              <h3 className="text-xl font-bold">Cynthia Nyokabi</h3>
-              <p className="text-red-600 font-semibold">Designer</p>
+              <img src="https://res.cloudinary.com/dqt3j0uif/image/upload/v1767612800/Happy_new_year_-_Made_with_PosterMyWall_uuxaix.jpg" alt="Pcea Church" className="w-full rounded shadow-lg mb-4" />
+              <h3 className="text-xl font-bold">Pcea Elijah Wathika Church</h3>
+              <p className="text-red-600 font-semibold">Handle all Sunday Livestreams</p>
             </div>
-             <div className="text-center">
-              <img src="/images/crew/gathoni.jpg" alt="gathoni" className="w-full rounded shadow-lg mb-4" />
-              <h3 className="text-xl font-bold">Virginia Gathoni</h3>
-              <p className="text-red-600 font-semibold">Social Media Marketer</p>
-            </div>
-          </div>
+  <div className="text-center">
+  <img 
+    src="https://res.cloudinary.com/dqt3j0uif/image/upload/v1767612910/a45d2ec2-6bcc-4d0d-985c-414238879e4e.png" 
+    alt="Eva Harris" 
+    className="w-full rounded shadow-lg mb-4" 
+  />
+  <h3 className="text-xl font-bold">Eva Harris</h3>
+  <a 
+    href="https://www.youtube.com/watch?v=RwbvftVnVno" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-red-600 font-semibold hover:underline"
+  >
+    Produced Her Second Song: Gatuma Gathiru
+  </a>
+</div>
+</div>
+  
           
         </section>
       </main>

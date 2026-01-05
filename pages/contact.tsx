@@ -18,7 +18,7 @@ export default function Contact() {
         {/* Whole Crew Photo */}
         <div className="max-w-4xl mx-auto mb-16">
           <img
-            src="/images/crew/whole-crew.jpg"
+            src="https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536082/whole-crew_bldyvw.jpg"
             alt="SmartLens Crew"
             className="w-full rounded shadow-lg object-cover"
           />
@@ -37,10 +37,10 @@ export default function Contact() {
 
           <div className="flex space-x-6 mt-4">
             <a href="https://www.instagram.com/smart_lens.ke?igsh=eHd0eXNjeWJscTdz" target="_blank" rel="noopener noreferrer">
-              <img src="images/icons/instagram.jpg" alt="Instagram" className="w-8 h-8 hover:scale-110 transition-transform" />
+              <img src="https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536234/instagram_puaj1b.webp" alt="Instagram" className="w-8 h-8 hover:scale-110 transition-transform" />
             </a>
             <a href="https://www.tiktok.com/@smart_lens.ke" target="_blank" rel="noopener noreferrer">
-              <img src="images/icons/tiktok.png" alt="TikTok" className="w-8 h-8 hover:scale-110 transition-transform" />
+              <img src="https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536235/tiktok_z5ty5t.png" alt="TikTok" className="w-8 h-8 hover:scale-110 transition-transform" />
             </a>
           </div>
 
