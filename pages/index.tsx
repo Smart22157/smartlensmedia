@@ -14,38 +14,38 @@ const crew: CrewMember[] = [
     name: "Geoffrey Muchangi",
     role: "Photographer, Videographer",
     description:
-      "Sometimes the grandest shots are in tiny details. Macro shots of water droplets, leaves, or textures tell stories of the natural world. In video, slow reveals focusing on a dewdrop before pulling back to a vast landscape create cinematic tension.",
+      "Capturing tiny details and turning them into cinematic stories.",
     image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536080/smart_svzomb.jpg",
   },
   {
     name: "Samuel Njuki",
     role: "Videographer, Photographer",
     description:
-      "In photography, a slight motion blur can convey movement; in video, motion is your language. Experiment with slow-motion to emphasize emotion, hyperlapse to show time passing, or panning shots to lead the eye through a scene.",
+      "Slow motion, panning, and hyperlapse – making moments speak.",
     image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536079/sam_x5d5zm.jpg",
   },
   {
     name: "James Njuki",
     role: "Videographer",
     description:
-      "A still photo freezes emotion, but video lets it breathe. A laugh, a tear, a handshake, or a fleeting glance—these tiny human moments become cinematic gold.",
+      "Turning fleeting human moments into cinematic gold.",
     image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536082/james_p0czcj.jpg",
-  },
-  {
-    name: "Cynthia Nyokabi",
-    role: "Designer",
-    description:
-      "A designer is more than someone who arranges colors and shapes. A designer is a storyteller — one who translates emotion, culture, and imagination into visuals that speak louder than words. At SmartLens, our designer is the bridge between creativity and purpose. Every poster, logo, or layout is carefully crafted to make people feel something: connection, excitement, belonging.",
-    image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536076/cynthia_uaxmos.jpg",
   },
   {
     name: "Virginia Gathoni",
     role: "Social Media Marketer",
     description:
-      "A social media marketer is the heartbeat of our digital presence — the one who turns moments into stories, and stories into conversations. At SmartLens, our marketer is not just posting content; they’re shaping how the world sees us. Every caption, reel, and hashtag is crafted with intent — to connect, engage, and inspire.",
+      "Our social media marketer turns moments into stories, and stories into conversations, shaping how the world sees us.",
     image: "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767536082/gathoni_dauihc.jpg",
   },
+];
 
+const portfolioPreview = [
+  "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767535782/grad15_crixds.jpg",
+  "https://res.cloudinary.com/dqt3j0uif/image/upload/f_auto,q_auto/grad1_dj8vue.jpg",
+  "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767535786/p4_keiaca.jpg",
+  "https://res.cloudinary.com/dqt3j0uif/image/upload/v1767535765/corporate12_u9di3r.jpg",
+  "https://res.cloudinary.com/dqt3j0uif/image/upload/f_auto,q_auto/corporate2_lunshf.jpg",
 ];
 
 export default function Home() {
@@ -60,7 +60,7 @@ export default function Home() {
         <Navbar />
 
         {/* Hero Section */}
-        <section className="flex flex-col items-center justify-center text-center py-16 px-6 md:py-24">
+        <section className="flex flex-col items-center justify-center text-center py-12 md:py-20 px-6">
           <h1 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">
             Welcome to SmartLens Photography
           </h1>
@@ -71,23 +71,49 @@ export default function Home() {
             href="/portfolio"
             className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full transition"
           >
-            Explore
+            Explore Portfolio
           </a>
         </section>
 
+       
+{/* Services / Categories Bar */}
+<section className="py-8 md:py-12 px-6 md:px-12 max-w-6xl mx-auto">
+  <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
+    Our Services
+  </h2>
+  <div className="flex flex-wrap justify-center gap-4">
+    {[
+      { name: "Weddings", icon: "💍" },
+      { name: "Portraits", icon: "📸" },
+      { name: "Corporate", icon: "🏢" },
+      { name: "Drone", icon: "🚁" },
+      { name: "Graduations", icon: "🎓" },
+      { name: "Ordinations", icon: "⛪" },
+    ].map((service, idx) => (
+      <div
+        key={idx}
+        className="bg-gray-800 hover:bg-red-600 transition-colors rounded-lg px-6 py-4 flex flex-col items-center cursor-pointer shadow-lg w-32 text-center"
+      >
+        <span className="text-3xl mb-2">{service.icon}</span>
+        <span className="font-semibold text-sm">{service.name}</span>
+      </div>
+    ))}
+  </div>
+</section>
+
+
         {/* Crew Section */}
-        <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+        <section className="py-12 md:py-16 px-6 md:px-12 max-w-6xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
             Meet Our Crew
           </h2>
-
-          <div className="flex flex-col gap-16">
+          <div className="flex flex-col gap-12">
             {crew.map((member, index) => (
               <motion.div
                 key={member.name}
                 className={`flex flex-col ${
                   index % 2 === 1 ? "md:flex-row-reverse" : "md:flex-row"
-                } items-center gap-8 md:gap-12`}
+                } items-center gap-6 md:gap-8`}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -96,11 +122,11 @@ export default function Home() {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full md:w-1/2 rounded-2xl shadow-lg object-cover h-64 md:h-96"
+                  className="w-full md:w-1/2 rounded-2xl shadow-lg object-cover h-64 md:h-80"
                 />
-                <div className="w-full md:w-1/2 bg-gray-800 p-6 md:p-8 rounded-2xl shadow-lg">
-                  <h3 className="text-2xl font-bold mb-2">{member.name}</h3>
-                  <p className="text-red-500 font-semibold mb-3">{member.role}</p>
+                <div className="w-full md:w-1/2 bg-gray-800 p-4 md:p-6 rounded-2xl shadow-lg">
+                  <h3 className="text-xl md:text-2xl font-bold mb-1">{member.name}</h3>
+                  <p className="text-red-500 font-semibold mb-2">{member.role}</p>
                   <p className="text-gray-300 text-sm md:text-base leading-relaxed">
                     {member.description}
                   </p>
@@ -109,6 +135,55 @@ export default function Home() {
             ))}
           </div>
         </section>
+    {/* Mini Portfolio Preview */}
+        <section className="py-12 px-6 md:px-12 max-w-6xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
+            Our Work in Action
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+            {portfolioPreview.map((src, idx) => (
+              <motion.div
+                key={idx}
+                className="overflow-hidden rounded-lg cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+              >
+                <img
+                  src={src}
+                  alt={`Portfolio ${idx + 1}`}
+                  className="w-full h-32 md:h-40 object-cover"
+                />
+              </motion.div>
+            ))}
+          </div>
+        </section>
+        {/* Streams Section */}
+        <section className="py-12 px-6 md:px-12 max-w-6xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
+            Livestream Highlights
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {[
+              { title: "CHRM COLLEGE - Oct 2025", url: "https://www.youtube.com/embed/TgrNub3kYaI" },
+              { title: "JKUAT Graduation - Jun 2025", url: "https://www.youtube.com/embed/tS2S0FmqVUc" },
+              { title: "Burial Livestream - Oct 2025", url: "https://www.youtube.com/embed/Ojd-UebXDNs" },
+            ].map((stream, idx) => (
+              <div key={idx} className="rounded-xl overflow-hidden shadow-lg bg-gray-800">
+                <iframe
+                  src={stream.url}
+                  title={stream.title}
+                  className="w-full h-48 sm:h-56 md:h-64"
+                  frameBorder="0"
+                  allowFullScreen
+                ></iframe>
+                <p className="p-2 text-sm text-gray-300 font-semibold">{stream.title}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <footer className="py-6 text-center text-gray-400 text-sm">
+          &copy; {new Date().getFullYear()} SmartLens Photography. All rights reserved.
+        </footer>
       </main>
     </>
   );
